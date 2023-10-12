@@ -268,3 +268,86 @@ font-weight: 700;
     margin-top: 4rem;
 }
 /* hero section */
+/* info section */
+.info-section {
+    height: 78.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F7FF;
+}
+
+.description {
+    width: 41.9309rem;
+    height: 29.1rem;
+    margin-top: -10rem;
+}
+
+.info-section .description h1 {
+    color: var(--neutral-grey-7, #2D2F30);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4.8rem;
+font-weight: 700;
+
+    line-height: normal;
+    letter-spacing: 0.0323rem;
+}
+
+.info-section .description p {
+    color: var(--neutral-grey-5, #8B8C8C);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    font-weight: 700;
+    /* 180% */
+    letter-spacing: 0.05rem;
+    margin-right: 5rem;
+}
+
+
+.info-section .row-box .box {
+
+    display: flex;
+    width: 25.5rem;
+    height: 25.3rem;
+    padding: 2.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 3%;
+}
+
+.info-section .row-box .box h1 {
+    color: var(--Text, #363940);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2.2rem;
+font-weight: 700;
+
+    line-height: 2.2rem;
+    /* 100% */
+    letter-spacing: 0.05rem;
+}
+
+.info-section .row-box .box p {
+    color: var(--neutral-grey-5, #8B8C8C);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.4rem;
+font-weight: 700;
+
+    line-height: 2.4rem;
+    /* 171.429% */
+    letter-spacing: 0.03rem;
+}
+
+.info-section .row-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.8rem;
+
+}
+
+/* info end */
