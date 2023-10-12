@@ -7,7 +7,7 @@
 html {
     font-size: 10px;
     max-width: 1440px;
-    max-width: 1440px;    
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,7 +32,8 @@ nav {
     display: flex;
     gap: 3.5rem;
 }
-.navbar svg{
+
+.navbar svg {
     margin-left: 11rem;
 }
 
@@ -66,57 +67,63 @@ nav {
 }
 
 /* footer */
-.footer_section{
+.footer_section {
     height: 43.3rem;
     background: #094B72;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0% 11.5%;
+    padding: 0% 11.5%;
 }
-.footer_section img{
+
+.footer_section img {
     width: 16.5rem;
     height: 5.4054rem;
     margin-top: -20%;
 }
-.footer_section .link{
+
+.footer_section .link {
     display: inline-flex;
     height: 24rem;
     align-items: flex-start;
     gap: 3rem;
 }
-.footer_section .link .list{
+
+.footer_section .link .list {
     width: 16rem;
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
-    
-}
-.footer_section .link .list h1{
-    color: var(--text-gray-100, #F4F5F7);
-font-feature-settings: 'salt' on, 'liga' off;
 
-/* Heading / H6 */
-font-family: Inter;
-font-size: 2rem;
-font-style: normal;
-font-weight: 700;
-line-height: 3rem; /* 150% */
+}
+
+.footer_section .link .list h1 {
+    color: var(--text-gray-100, #F4F5F7);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Heading / H6 */
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    /* 150% */
 }
 
 .footer_section .link .list-items {
-    display:flex;
-    flex-direction:column; 
+    display: flex;
+    flex-direction: column;
     color: var(--text-gray-200, #EEEFF4);
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 700;
-    gap: 1.2rem;   
+    gap: 1.2rem;
 
 }
-.footer_section .link .list-items a{
+
+.footer_section .link .list-items a {
     text-decoration: none;
     color: var(--text-gray-200, #EEEFF4);
 }
@@ -142,12 +149,13 @@ footer .container p {
     /* Body / Body 2 */
     font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 2.4rem;
     /* 171.429% */
 }
-footer .container a{
+
+footer .container a {
     text-decoration: none;
     color: var(--text-gray-300, #D9DBE1);
 }
@@ -181,7 +189,7 @@ footer .container a{
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 3.6rem;
     /* 150% */
@@ -192,7 +200,7 @@ font-weight: 700;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.6rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 3.6rem;
     /* 225% */
@@ -210,7 +218,7 @@ font-weight: 700;
     color: #094B72;
     font-family: 'Playfair Display', serif;
     font-size: 9rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 10.8rem;
     letter-spacing: 0.18rem;
@@ -221,7 +229,7 @@ font-weight: 700;
     color: var(--neutral-grey-6, #4F4F4F);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 158%;
     /* 3.792rem */
@@ -234,7 +242,7 @@ font-weight: 700;
     color: var(--neutral-grey-1, #F9F8F9);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.6rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 140.5%;
     /* 2.248rem */
@@ -250,7 +258,7 @@ font-weight: 700;
     color: var(--neutral-grey-5, #8B8C8C);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.2rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 140.5%;
     /* 3.091rem */
@@ -267,6 +275,7 @@ font-weight: 700;
     gap: 1rem;
     margin-top: 4rem;
 }
+
 /* hero section */
 /* info section */
 .info-section {
@@ -287,7 +296,7 @@ font-weight: 700;
     color: var(--neutral-grey-7, #2D2F30);
     font-family: 'Playfair Display', sans-serif;
     font-size: 4.8rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: normal;
     letter-spacing: 0.0323rem;
@@ -324,7 +333,7 @@ font-weight: 700;
     color: var(--Text, #363940);
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.2rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 2.2rem;
     /* 100% */
@@ -336,7 +345,7 @@ font-weight: 700;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.4rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 2.4rem;
     /* 171.429% */
@@ -376,7 +385,7 @@ font-weight: 700;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-size: 4.8rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 6.4rem;
     /* 133.333% */
@@ -388,7 +397,7 @@ font-weight: 700;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 3.2rem;
     /* 177.778% */
@@ -413,7 +422,7 @@ font-weight: 700;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 4.8rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 6.4rem;
     /* 133.333% */
@@ -425,7 +434,7 @@ font-weight: 700;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-font-weight: 700;
+    font-weight: 700;
 
     line-height: 3.2rem;
     /* 177.778% */
@@ -434,3 +443,108 @@ font-weight: 700;
 }
 
 /* Achievement */
+/* section-testimonial */
+.section-testimonial {
+    height: 61rem;
+    background: #F2F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.1rem;
+
+
+}
+
+.section-testimonial .title {
+    color: var(--neutral-grey-7, #2D2F30);
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4.8rem;
+    font-weight: 700;
+
+    line-height: 6.4rem;
+    /* 133.333% */
+    letter-spacing: 0.05rem;
+}
+
+.section-testimonial .testimonials {
+    display: flex;
+    width: 111rem;
+    gap: 4rem;
+}
+
+.section-testimonial .testimonials .test-client {
+    width: 54rem;
+    height: 30.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section-testimonial .testimonials .test-client .cart {
+    height: 22rem;
+    padding: 3.2rem;
+    border-radius: 1rem;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+
+}
+
+.section-testimonial .testimonials .test-client .cart h1 {
+    color: var(--neutral-grey-8, #151617);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    line-height: 155.556%;
+
+    font-weight: 700;
+    /*  */
+}
+
+.section-testimonial .testimonials .test-client .cart p {
+    color: var(--neutral-grey-6, #4F4F4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 171.429%;
+    /* 171.429% */
+    letter-spacing: 0.05rem;
+
+}
+
+.section-testimonial .testimonials .test-client .client-detai {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.section-testimonial .testimonials .test-client .client-detai .client-name {
+    color: var(--neutral-grey-8, #151617);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 1000;
+    font-family: 'Inter', sans-serif;
+    /* 155.556% */
+}
+
+.section-testimonial .testimonials .test-client .client-detai .client-info {
+    color: var(--neutral-grey-7, #2D2F30);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+
+    font-weight: 1000;
+    line-height: 2.4rem;
+    /* 171.429% */
+}
+
+/* section-testimonial */
