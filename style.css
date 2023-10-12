@@ -153,3 +153,118 @@ footer .container a{
 }
 
 /* footer */
+/* hero section */
+
+.hero-section {
+    display: flex;
+    padding-left: 16.5rem;
+    justify-content: space-between;
+}
+
+.hero-section .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section .hero-image .hero-inf {
+    width: 38.2rem;
+    height: 11.4rem;
+    border-radius: 1rem;
+    background: #FFF;
+    position: absolute;
+
+}
+
+.hero-section .hero-image .hero-inf h1 {
+    color: #33475B;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.4rem;
+font-weight: 700;
+
+    line-height: 3.6rem;
+    /* 150% */
+}
+
+.hero-section .hero-image .hero-inf h2 {
+    color: #87898C;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.6rem;
+font-weight: 700;
+
+    line-height: 3.6rem;
+    /* 225% */
+}
+
+.hero-section .hero {
+    width: 59.3rem;
+    height: 82.59rem;
+    margin-top: 6.5rem;
+    /* position: absolute; */
+
+}
+
+.hero-section .hero h1 {
+    color: #094B72;
+    font-family: 'Playfair Display', serif;
+    font-size: 9rem;
+font-weight: 700;
+
+    line-height: 10.8rem;
+    letter-spacing: 0.18rem;
+}
+
+
+.hero-section .hero p {
+    color: var(--neutral-grey-6, #4F4F4F);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.4rem;
+font-weight: 700;
+
+    line-height: 158%;
+    /* 3.792rem */
+    letter-spacing: 0.05rem;
+    margin-bottom: 2.3rem;
+
+}
+
+.hero-section .hero button {
+    color: var(--neutral-grey-1, #F9F8F9);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.6rem;
+font-weight: 700;
+
+    line-height: 140.5%;
+    /* 2.248rem */
+    letter-spacing: 0.128rem;
+    width: 19rem;
+    height: 8rem;
+    border-radius: 0.8rem;
+    background: #094B72;
+    margin-bottom: 11.5rem;
+}
+
+.hero-section .hero span {
+    color: var(--neutral-grey-5, #8B8C8C);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.2rem;
+font-weight: 700;
+
+    line-height: 140.5%;
+    /* 3.091rem */
+    letter-spacing: 0.088rem;
+}
+
+.hero-section .hero .camp-logo {
+    width: 28rem;
+    height: 9.39rem;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+/* hero section */
