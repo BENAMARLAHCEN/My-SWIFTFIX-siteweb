@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -66,101 +67,9 @@ nav {
     letter-spacing: 0.15rem;
 }
 
-/* footer */
-.footer_section {
-    height: 43.3rem;
-    background: #094B72;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0% 11.5%;
-}
 
-.footer_section img {
-    width: 16.5rem;
-    height: 5.4054rem;
-    margin-top: -20%;
-}
 
-.footer_section .link {
-    display: inline-flex;
-    height: 24rem;
-    align-items: flex-start;
-    gap: 3rem;
-}
 
-.footer_section .link .list {
-    width: 16rem;
-    display: flex;
-    flex-direction: column;
-    gap: 3.2rem;
-
-}
-
-.footer_section .link .list h1 {
-    color: var(--text-gray-100, #F4F5F7);
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Heading / H6 */
-    font-family: Inter;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
-    /* 150% */
-}
-
-.footer_section .link .list-items {
-    display: flex;
-    flex-direction: column;
-    color: var(--text-gray-200, #EEEFF4);
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 700;
-    gap: 1.2rem;
-
-}
-
-.footer_section .link .list-items a {
-    text-decoration: none;
-    color: var(--text-gray-200, #EEEFF4);
-}
-
-footer {
-    height: 6.9374rem;
-    background: #004D7B;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 16.5rem;
-    padding-right: 16.5rem;
-}
-
-.box {
-    display: flex;
-    gap: 1.6rem;
-}
-
-footer .container p {
-    color: var(--text-gray-300, #D9DBE1);
-
-    /* Body / Body 2 */
-    font-family: 'Inter', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-
-    line-height: 2.4rem;
-    /* 171.429% */
-}
-
-footer .container a {
-    text-decoration: none;
-    color: var(--text-gray-300, #D9DBE1);
-}
-
-/* footer */
 /* hero section */
 
 .hero-section {
@@ -277,6 +186,8 @@ footer .container a {
 }
 
 /* hero section */
+
+
 /* info section */
 .info-section {
     height: 78.6rem;
@@ -360,6 +271,7 @@ footer .container a {
 }
 
 /* info end */
+
 /* Achievement */
 .achie-section {
     height: 35.6rem;
@@ -443,6 +355,8 @@ footer .container a {
 }
 
 /* Achievement */
+
+
 /* section-testimonial */
 .section-testimonial {
     height: 61rem;
@@ -484,7 +398,7 @@ footer .container a {
     gap: 3rem;
 }
 
-.section-testimonial .testimonials .test-client .cart {
+.card {
     height: 22rem;
     padding: 3.2rem;
     border-radius: 1rem;
@@ -493,28 +407,23 @@ footer .container a {
 
 }
 
-.section-testimonial .testimonials .test-client .cart h1 {
+.card h1 {
     color: var(--neutral-grey-8, #151617);
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     line-height: 155.556%;
-
-    font-weight: 700;
+    font-weight: 1000;
     /*  */
 }
 
-.section-testimonial .testimonials .test-client .cart p {
+.card p {
     color: var(--neutral-grey-6, #4F4F4F);
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
-    font-style: normal;
     font-weight: 700;
-
     line-height: 171.429%;
-    /* 171.429% */
     letter-spacing: 0.05rem;
 
 }
@@ -551,36 +460,40 @@ footer .container a {
 
 /* cta */
 
-.cta{
+.cta {
     height: 37.4rem;
     padding-left: 11.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.cta h1{
+
+.cta h1 {
     color: var(--neutral-grey-7, #2D2F30);
-font-feature-settings: 'salt' on, 'liga' off;
-font-family: Playfair Display;
-font-size: 4.8rem;
-font-weight: 700;
-letter-spacing: 0.05rem;
-margin-bottom: 1.5rem;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Playfair Display;
+    font-size: 4.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1.5rem;
 }
-.cta p{
+
+.cta p {
     width: 82.1rem;
-height: 12.9393rem;
-flex-shrink: 0;
-color: var(--neutral-grey-6, #4F4F4F);
-font-family: Poppins;
-font-size: 2.4rem;
-font-weight: 700;
-line-height: 3.6rem; /* 150% */
-letter-spacing: 0.05rem;
-margin-bottom: 1rem;
+    height: 12.9393rem;
+    flex-shrink: 0;
+    color: var(--neutral-grey-6, #4F4F4F);
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    /* 150% */
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
 }
-.cta button{
-    width : 21.9rem;
+
+.cta button {
+    width: 21.9rem;
     height: 6.4rem;
     border-radius: 0.8rem;
     background: #094B72;
@@ -589,12 +502,205 @@ margin-bottom: 1rem;
     align-items: center;
     gap: 1.74rem;
 }
-.cta button span{
+
+.cta button span {
     color: var(--neutral-grey-1, #F9F8F9);
-font-family: Poppins;
-font-size: 2.2rem;
-font-style: normal;
-font-weight: 600;
-line-height: 3.6rem; /* 163.636% */
-letter-spacing: 0.05rem;
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.6rem;
+    /* 163.636% */
+    letter-spacing: 0.05rem;
 }
+
+
+/* footer */
+.footer_section {
+    height: 43.3rem;
+    background: #094B72;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 11.5%;
+}
+
+.footer_section img {
+    width: 16.5rem;
+    height: 5.4054rem;
+    margin-top: -20%;
+}
+
+.footer_section .link {
+    display: inline-flex;
+    height: 24rem;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.footer_section .link .list {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+}
+
+.footer_section .link .list h1 {
+    color: var(--text-gray-100, #F4F5F7);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Heading / H6 */
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    /* 150% */
+}
+
+.footer_section .link .list-items {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-gray-200, #EEEFF4);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    gap: 1.2rem;
+
+}
+
+.footer_section .link .list-items a {
+    text-decoration: none;
+    color: var(--text-gray-200, #EEEFF4);
+}
+
+footer {
+    height: 6.9374rem;
+    background: #004D7B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
+}
+
+.box {
+    display: flex;
+    gap: 1.6rem;
+}
+
+footer .container p {
+    color: var(--text-gray-300, #D9DBE1);
+
+    /* Body / Body 2 */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    line-height: 2.4rem;
+    /* 171.429% */
+}
+
+footer .container a {
+    text-decoration: none;
+    color: var(--text-gray-300, #D9DBE1);
+}
+
+/* footer */
+
+/* about */
+
+/* section 1 */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 9.7rem;
+    padding-top: 14rem;
+    flex-wrap: wrap;
+
+}
+
+.about-title {
+    position: absolute;
+    color: #094B72;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 7.2rem;
+    /* 7.2rem */
+    letter-spacing: 0.12rem;
+    align-self: flex-start;
+}
+
+.about-descrip p {
+    color: var(--neutral-grey-6, #4F4F4F);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.792rem;
+    /* 3.792rem */
+    letter-spacing: 0.05rem;
+}
+
+.about-descrip {
+    display: flex;
+    width: 62.6rem;
+    height: 66.7rem;
+    flex-direction: column;
+    justify-content: end;
+    gap: 8rem;
+    margin-left: 11%;
+
+}
+
+.about-descrip button {
+    width: 19rem;
+    height: 8.2597rem;
+    flex-shrink: 0;
+    border-radius: 0.8rem;
+    background: #094B72;
+    color: var(--neutral-grey-1, #F9F8F9);
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.5%;
+    /* 2.529rem */
+    letter-spacing: 0.144rem;
+}
+
+/* section 1 */
+
+/* section 2 */
+
+.about-service .card{
+    width: 38%;
+    height: 22rem;
+}
+.about-service{
+    max-width: 1440px;
+    height: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem 16rem;
+}
+
+/* section 2 */
+/* about */
+
+
+/* services */
+
+
+
+/* services */
