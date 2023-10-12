@@ -15,6 +15,7 @@ html {
 
 
 header {
+    min-width: 144rem;
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
@@ -37,16 +38,18 @@ nav {
 .navbar svg {
     margin-left: 11rem;
 }
-
-.navbar a {
+a{
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
     color: var(--neutral-grey-7, #2D2F30);
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     font-weight: 1000;
-    line-height: 2.3rem;
-    /* 191.667% */
-    letter-spacing: 0.15rem;
     text-decoration: none;
+    gap: 5.6rem;
 }
 
 .nav-logo {
@@ -73,6 +76,7 @@ nav {
 /* hero section */
 
 .hero-section {
+    min-width: 144rem;
     display: flex;
     padding-left: 16.5rem;
     justify-content: space-between;
@@ -190,6 +194,7 @@ nav {
 
 /* info section */
 .info-section {
+    min-width: 144rem;
     height: 78.6rem;
     display: flex;
     justify-content: center;
@@ -274,6 +279,7 @@ nav {
 
 /* Achievement */
 .achie-section {
+    min-width: 144rem;
     height: 35.6rem;
     background-image: url(img/BG.png);
     display: flex;
@@ -359,6 +365,7 @@ nav {
 
 /* section-testimonial */
 .section-testimonial {
+    min-width: 144rem;
     height: 61rem;
     background: #F2F7FF;
     display: flex;
@@ -461,6 +468,7 @@ nav {
 /* cta */
 
 .cta {
+    min-width: 144rem;
     height: 37.4rem;
     padding-left: 11.5%;
     display: flex;
@@ -517,6 +525,7 @@ nav {
 
 /* footer */
 .footer_section {
+    min-width: 144rem;
     height: 43.3rem;
     background: #094B72;
     display: flex;
@@ -578,6 +587,7 @@ nav {
 }
 
 footer {
+    min-width: 144rem;
     height: 6.9374rem;
     background: #004D7B;
     display: flex;
@@ -615,6 +625,7 @@ footer .container a {
 
 /* section 1 */
 .about-section {
+    min-width: 144rem;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -681,12 +692,13 @@ footer .container a {
 
 /* section 2 */
 
-.about-service .card{
+.about-service .card {
     width: 38%;
     height: 22rem;
 }
-.about-service{
-    max-width: 1440px;
+
+.about-service {
+    min-width: 144rem;
     height: 70rem;
     display: flex;
     flex-wrap: wrap;
@@ -700,6 +712,63 @@ footer .container a {
 
 
 /* services */
+
+.services-sec {
+    min-width: 144rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ser-card {
+    width: 30%;
+    height: 60.95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.4rem;
+    gap: 1.8rem;
+    border-radius: 0.8rem;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+
+}
+
+.ser-card img {
+    width: 14.6rem;
+    height: 14.6rem;
+}
+
+.ser-card h1 {
+    width: 18.1rem;
+    color: var(--Text, #363940);
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+.ser-card p {
+    width: 29.3rem;
+    color: var(--neutral-grey-5, #8B8C8C);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+    /* 171.429% */
+    letter-spacing: 0.03rem;
+}
+
+
 
 
 
