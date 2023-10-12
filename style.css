@@ -548,3 +548,53 @@ footer .container a {
 }
 
 /* section-testimonial */
+
+/* cta */
+
+.cta{
+    height: 37.4rem;
+    padding-left: 11.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cta h1{
+    color: var(--neutral-grey-7, #2D2F30);
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Playfair Display;
+font-size: 4.8rem;
+font-weight: 700;
+letter-spacing: 0.05rem;
+margin-bottom: 1.5rem;
+}
+.cta p{
+    width: 82.1rem;
+height: 12.9393rem;
+flex-shrink: 0;
+color: var(--neutral-grey-6, #4F4F4F);
+font-family: Poppins;
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 3.6rem; /* 150% */
+letter-spacing: 0.05rem;
+margin-bottom: 1rem;
+}
+.cta button{
+    width : 21.9rem;
+    height: 6.4rem;
+    border-radius: 0.8rem;
+    background: #094B72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.74rem;
+}
+.cta button span{
+    color: var(--neutral-grey-1, #F9F8F9);
+font-family: Poppins;
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 3.6rem; /* 163.636% */
+letter-spacing: 0.05rem;
+}
