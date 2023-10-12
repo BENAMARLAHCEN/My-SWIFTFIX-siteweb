@@ -1,49 +1,97 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Playfair+Display&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@100&display=swap');
+
+* {
     margin: 0;
 }
-header{
-    width: 69.375rem;
-    height: 6.25rem;
-    margin-left: 10.31rem;
-    margin-right: 10.31rem;
-    background: #ffffff;
+
+html {
+    font-size: 10px;
+    max-width: 1440px;
+    max-width: 1440px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    width: 77%;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.navbar-logo{
-    width: 9rem;
-    height: 2.25rem;  
-     display: flex;
-    justify-content: center;
+
 }
 
-nav{
-    display: inline-flex;
-justify-content: center;
-align-items: center;
-gap: 3.5rem;
+.navbar {
+    display: flex;
+    gap: 3.5rem;
 }
-li ,a{
+.navbar svg{
+    margin-left: 11rem;
+}
+
+.navbar a {
     color: var(--neutral-grey-7, #2D2F30);
-font-family: Poppins;
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.4375rem; /* 191.667% */
-letter-spacing: 0.09375rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    line-height: 2.3rem;
+    /* 191.667% */
+    letter-spacing: 0.15rem;
+    text-decoration: none;
 }
-ul{
-    box-sizing: border-box;
-    list-style: none;
+
+.nav-logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
-.navbar-logo span{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+
+.nav-logo span {
+    color: var(--neutral-grey-7, #2D2F30);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+
+    line-height: 2.3rem;
+    /* 115% */
+    letter-spacing: 0.15rem;
 }
-.box{
+
+footer {
+    height: 6.9374rem;
+    background: #004D7B;
     display: flex;
-    gap
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
+}
+
+.box {
+    display: flex;
+    gap: 1.6rem;
+}
+
+footer .container p {
+    color: var(--text-gray-300, #D9DBE1);
+
+    /* Body / Body 2 */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+font-weight: 700;
+
+    line-height: 2.4rem;
+    /* 171.429% */
+}
+footer .container a{
+    text-decoration: none;
+    color: var(--text-gray-300, #D9DBE1);
 }
