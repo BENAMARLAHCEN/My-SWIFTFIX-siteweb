@@ -38,10 +38,12 @@ nav {
 .navbar svg {
     margin-left: 11rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     display: flex;
     color: var(--neutral-grey-7, #2D2F30);
@@ -143,9 +145,7 @@ a{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
-
     line-height: 158%;
-    /* 3.792rem */
     letter-spacing: 0.05rem;
     margin-bottom: 2.3rem;
 
@@ -156,9 +156,7 @@ a{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
-
     line-height: 140.5%;
-    /* 2.248rem */
     letter-spacing: 0.128rem;
     width: 19rem;
     height: 8rem;
@@ -172,9 +170,7 @@ a{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
-
     line-height: 140.5%;
-    /* 3.091rem */
     letter-spacing: 0.088rem;
 }
 
@@ -213,7 +209,6 @@ a{
     font-family: 'Playfair Display', sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
-
     line-height: normal;
     letter-spacing: 0.0323rem;
 }
@@ -225,20 +220,16 @@ a{
     font-size: 2rem;
     line-height: 3.6rem;
     font-weight: 700;
-    /* 180% */
     letter-spacing: 0.05rem;
     margin-right: 5rem;
 }
 
 
 .info-section .row-box .box {
-
     display: flex;
     width: 25.5rem;
-    height: 25.3rem;
     padding: 2.4rem;
     flex-direction: column;
-    align-items: flex-start;
     gap: 1.8rem;
     background: #FCFCFC;
     box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
@@ -250,9 +241,7 @@ a{
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
-
     line-height: 2.2rem;
-    /* 100% */
     letter-spacing: 0.05rem;
 }
 
@@ -261,17 +250,19 @@ a{
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.4rem;
-    font-weight: 700;
-
+    font-weight: 400;
     line-height: 2.4rem;
     /* 171.429% */
     letter-spacing: 0.03rem;
+    width: 22.3rem;
+
 }
 
 .info-section .row-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.8rem;
+
 
 }
 
@@ -718,17 +709,30 @@ footer .container a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 7.74rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
+
+.ser-title{
+    color: #000;
+text-align: center;
+font-family: 'Playfair Display',sans-serif;
+font-size: 6rem;
+font-weight: 700;
+line-height: 7.2rem;
+letter-spacing: 0.12rem;
+}
+
 
 .services {
     display: flex;
     justify-content: space-between;
-
+    width: 90%;
 }
 
 .ser-card {
-    width: 30%;
-    height: 60.95rem;
+    width: 38.5365rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -743,6 +747,16 @@ footer .container a {
 .ser-card img {
     width: 14.6rem;
     height: 14.6rem;
+}
+
+.ser-card .service-detai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25.9rem;
+    gap: 1rem;
+
 }
 
 .ser-card h1 {
@@ -764,10 +778,24 @@ footer .container a {
     font-style: normal;
     font-weight: 400;
     line-height: 2.4rem;
-    /* 171.429% */
     letter-spacing: 0.03rem;
 }
 
+.ser-card button {
+    width: 19rem;
+    height: 8.2597rem;
+    border-radius: 0.8rem;
+    background: #094B72;
+    color: var(--neutral-grey-1, #F9F8F9);
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.144rem;
+}
+
+.image{
+    display: flex;
+}
 
 
 
