@@ -129,7 +129,7 @@ a {
 
 
 .hero-section .hero p {
-    color:  #4F4F4F;
+    color: #4F4F4F;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
@@ -256,7 +256,6 @@ a {
 /* Achievement */
 .achie-section {
     min-width: 144rem;
-    height: 35.6rem;
     background-image: url(img/BG.png);
     display: flex;
     justify-content: center;
@@ -268,9 +267,7 @@ a {
 
 .achie-section .heading {
     display: flex;
-    width: 73rem;
     flex-direction: column;
-    gap: 0.8rem;
 
 }
 
@@ -280,7 +277,6 @@ a {
     font-family: 'Playfair Display', sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
-    line-height: 6.4rem;
     letter-spacing: 0.024rem;
 }
 
@@ -297,8 +293,8 @@ a {
 .achie-section .count {
     display: flex;
     width: 82.5;
+    justify-content: space-between;
     gap: 1.5rem;
-
 }
 
 .achie-section .count .count-detai {
@@ -376,7 +372,20 @@ a {
     border-radius: 1rem;
     background: #ffffff;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    position: relative;
 
+}
+
+.card::after {
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    position: absolute;
+    bottom: -1rem;
+    right: 50%;
+    transform: translateX(50%) rotate(45deg);
 }
 
 .card h1 {
@@ -389,7 +398,7 @@ a {
 }
 
 .card p {
-    color:  #4F4F4F;
+    color: #4F4F4F;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
@@ -436,7 +445,7 @@ a {
 
 .cta h1 {
     color: #2D2F30;
-    font-family: 'Playfair Display',sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
     letter-spacing: 0.05rem;
@@ -447,8 +456,8 @@ a {
     width: 82.1rem;
     height: 12.9393rem;
     flex-shrink: 0;
-    color:  #4F4F4F;
-    font-family: 'Poppins',sans-serif;
+    color: #4F4F4F;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 3.6rem;
@@ -594,7 +603,7 @@ footer .container a {
 }
 
 .about-descrip p {
-    color:  #4F4F4F;
+    color: #4F4F4F;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
@@ -663,22 +672,23 @@ footer .container a {
     margin-bottom: 10rem;
 }
 
-.ser-title{
-color: #000;
-text-align: center;
-font-family: 'Playfair Display',sans-serif;
-font-size: 6rem;
-font-weight: 700;
-line-height: 7.2rem;
-letter-spacing: 0.12rem;
+.ser-title {
+    color: #000;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 7.2rem;
+    letter-spacing: 0.12rem;
 }
 
 
 .services {
     display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: space-around;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 100%;
 }
 
 .ser-card {
@@ -722,7 +732,7 @@ letter-spacing: 0.12rem;
     width: 29.3rem;
     color: #8B8C8C;
     text-align: center;
-    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 2.4rem;
@@ -735,17 +745,74 @@ letter-spacing: 0.12rem;
     border-radius: 0.8rem;
     background: #094B72;
     color: #F9F8F9;
-    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: 0.144rem;
 }
 
-.image{
+.image {
     display: flex;
 }
 
-
-
-
 /* services */
+
+/* contact */
+.co-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 16rem;
+    gap: 3rem;
+    
+}
+.heading-cont{
+    color: #094B72;
+font-family: Playfair Display;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.8rem; /* 4.8rem */
+letter-spacing: 0.08rem;
+margin-left: 16.5rem;
+margin-top: 6rem;
+}
+
+
+.co-group img{
+    width: 67.6rem;
+    height: 41.7rem;
+}
+.contact .container .co-group form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.contact .container input,
+.contact .container textarea,select,option {
+    width: 48.1rem;
+    padding: 0.8rem 2rem;
+    font-size: 2rem;
+    box-shadow: 0px 3px 4px 4px #f2f2f2;
+    border: none;
+    resize: none;
+    border-radius: 3px;
+    outline: none;
+
+}
+
+.contact .container button {
+    width: 19rem;
+    height: 5.7rem;
+    border-radius: 0.8rem;
+    background: #094B72;
+    color: var(--neutral-grey-1, #F9F8F9);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 140.5%;
+    letter-spacing: 0.152rem;
+}
+
+/* contact */
