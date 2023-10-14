@@ -11,8 +11,9 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-
-
+select{
+    word-wrap: normal;
+}
 header {
     min-width: 144rem;
     background-color: rgb(255, 255, 255);
@@ -775,7 +776,7 @@ a {
 }
 .heading-cont{
     color: #094B72;
-font-family: Playfair Display;
+font-family: 'Playfair Display',sans-serif;
 font-size: 4rem;
 font-style: normal;
 font-weight: 700;
@@ -797,21 +798,32 @@ margin-top: 6rem;
 }
 
 .contact .container input,
-.contact .container textarea,select {
+.contact .container textarea,
+.contact .container select{
     width: 100%;
-    padding: 0.8rem 2rem;
+    padding: 1.4rem 2rem;
     font-size: 2rem;
-    box-shadow: 0px 3px 4px 4px #f2f2f2;
     border: none;
     resize: none;
     border-radius: 3px;
     outline: none;
     box-sizing: border-box;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+
 
 }
-select{
-    font-size:0%;
+label{
+    color: #363940;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
 }
+.contact .container option{
+    height: 4rem;
+    font-size: 2rem;
+}
+
 
 
 .contact .container button {
@@ -826,5 +838,11 @@ select{
     line-height: 4.5rem;
     letter-spacing: 0.152rem;
 }
-
+.contact .container button {
+    transition: background-color 0.3s ease;
+  }
+  
+.contact .container button:hover {
+    background-color: #000000;
+  }
 /* contact */
