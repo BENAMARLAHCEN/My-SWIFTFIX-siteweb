@@ -81,20 +81,20 @@ a {
 .hero-section .hero-image {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .hero-section .hero-image .hero-inf {
     width: 38.2rem;
     height: 11.4rem;
     border-radius: 1rem;
-    background: #FFF;
+    background: #fcfcfc;
     position: absolute;
+    align-self: flex-end;
 
 }
 
 .hero-section .hero-image .hero-inf h1 {
-    color: #33475B;
+    color: #425d78;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
@@ -103,7 +103,7 @@ a {
 }
 
 .hero-section .hero-image .hero-inf h2 {
-    color: #87898C;
+    color: #2d2f31;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.6rem;
@@ -122,14 +122,14 @@ a {
     font-family: 'Playfair Display', serif;
     font-size: 9rem;
     font-weight: 700;
-
     line-height: 10.8rem;
     letter-spacing: 0.18rem;
+    margin: 0;
 }
 
 
 .hero-section .hero p {
-    color: #4F4F4F;
+    color: #363535;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
@@ -154,7 +154,7 @@ a {
 }
 
 .hero-section .hero span {
-    color: #8B8C8C;
+    color: #4a4b4b;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
@@ -181,7 +181,7 @@ a {
     min-width: 144rem;
     height: 78.6rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background: #F2F7FF;
 }
@@ -193,7 +193,7 @@ a {
 }
 
 .info-section .description h1 {
-    color: #2D2F30;
+    color: #1d1d1e;
     font-family: 'Playfair Display', sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
@@ -202,7 +202,7 @@ a {
 }
 
 .info-section .description p {
-    color: #8B8C8C;
+    color: #636363;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     line-height: 3.6rem;
@@ -224,7 +224,7 @@ a {
 }
 
 .info-section .row-box .box h1 {
-    color: #363940;
+    color: #1d1f24;
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
@@ -233,7 +233,7 @@ a {
 }
 
 .info-section .row-box .box p {
-    color: #8B8C8C;
+    color: #363636;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
@@ -256,7 +256,7 @@ a {
 /* Achievement */
 .achie-section {
     min-width: 144rem;
-    background-image: url(img/BG.png);
+    /* background-image: url(img/BG.png); */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -264,10 +264,15 @@ a {
     gap: 4.8rem;
 
 }
+.achie-section img{
+    position: absolute;
+    z-index: 1;
+}
 
 .achie-section .heading {
     display: flex;
     flex-direction: column;
+    z-index: 2;
 
 }
 
@@ -295,6 +300,7 @@ a {
     width: 82.5;
     justify-content: space-between;
     gap: 1.5rem;
+    z-index: 2;
 }
 
 .achie-section .count .count-detai {
@@ -371,12 +377,12 @@ a {
     padding: 3.2rem;
     border-radius: 1rem;
     background: #ffffff;
-    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    box-shadow: 0px 10px 20px 10px rgba(41, 41, 42, 0.07);
     position: relative;
 
 }
 
-.card::after {
+.section-testimonial .card::after {
     content: "";
     display: inline-block;
     height: 2rem;
@@ -389,7 +395,7 @@ a {
 }
 
 .card h1 {
-    color: #151617;
+    color: #000000;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
@@ -398,7 +404,7 @@ a {
 }
 
 .card p {
-    color: #4F4F4F;
+    color: #060505;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
@@ -527,7 +533,7 @@ a {
     line-height: 3rem;
 }
 
-.footer_section .link .list-items {
+.footer_section .link ul {
     display: flex;
     flex-direction: column;
     color: #EEEFF4;
@@ -535,15 +541,17 @@ a {
     font-size: 1.6rem;
     font-weight: 700;
     gap: 1.2rem;
-
+    list-style: none;
+    margin-left: -4rem;
 }
 
-.footer_section .link .list-items a {
+
+.footer_section .link ul a {
     text-decoration: none;
     color: #EEEFF4;
 }
 
-footer {
+.footer {
     min-width: 144rem;
     height: 6.9374rem;
     background: #004D7B;
@@ -559,7 +567,7 @@ footer {
     gap: 1.6rem;
 }
 
-footer .container p {
+.footer .container p {
     color: #D9DBE1;
     font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
@@ -567,7 +575,7 @@ footer .container p {
     line-height: 2.4rem;
 }
 
-footer .container a {
+.footer .container a {
     text-decoration: none;
     color: #D9DBE1;
 }
@@ -760,9 +768,9 @@ footer .container a {
 /* contact */
 .co-group{
     display: flex;
-    justify-content: space-between;
-    margin: 10rem 16rem;
+    margin: 10rem 6rem 10rem 16rem;
     gap: 3rem;
+    flex-wrap: wrap;
     
 }
 .heading-cont{
@@ -779,8 +787,11 @@ margin-top: 6rem;
 
 
 .contact .container .co-group form {
+    width: 42%;
+    min-width: 50rem;
     display: flex;
     flex-direction: column;
+    
     gap: 3rem;
 
 }
@@ -797,6 +808,9 @@ margin-top: 6rem;
     outline: none;
     box-sizing: border-box;
 
+}
+select{
+    font-size:0%;
 }
 
 
