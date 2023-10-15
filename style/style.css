@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Playfair+Display&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Playfair+Display&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@100;300&display=swap');
 
 * {
     margin: 0;
@@ -136,11 +136,11 @@ a {
     font-weight: 700;
     line-height: 158%;
     letter-spacing: 0.05rem;
-    margin-bottom: 2.3rem;
+    margin-bottom: 5rem;
 
 }
 
-.hero-section .hero button {
+.hero-section .hero .button {
     color: #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.6rem;
@@ -151,9 +151,12 @@ a {
     height: 8rem;
     border-radius: 0.8rem;
     background: #094B72;
-    margin-bottom: 11.5rem;
-}
+    padding: 3rem;
 
+}
+.hero-camp{
+    margin-top: 12rem;
+}
 .hero-section .hero span {
     color: #4a4b4b;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -298,7 +301,7 @@ a {
 
 .achie-section .count {
     display: flex;
-    width: 82.5;
+    width: 82.5rem;
     justify-content: space-between;
     gap: 1.5rem;
     z-index: 2;
@@ -395,13 +398,16 @@ a {
     transform: translateX(50%) rotate(45deg);
 }
 
-.card h1 {
+.card .h1 {
     color: #000000;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     line-height: 155.556%;
     font-weight: 1000;
+}
+.card div{
+    margin: 1rem;
 }
 
 .card p {
@@ -472,7 +478,7 @@ a {
     margin-bottom: 1rem;
 }
 
-.cta button {
+.cta .button {
     width: 21.9rem;
     height: 6.4rem;
     border-radius: 0.8rem;
@@ -483,7 +489,7 @@ a {
     gap: 1.74rem;
 }
 
-.cta button span {
+.cta .button span {
     color: #F9F8F9;
     font-family: Poppins;
     font-size: 2.2rem;
@@ -631,19 +637,20 @@ a {
 
 }
 
-.about-descrip button {
+.about-descrip .button {
     width: 19rem;
     height: 8.2597rem;
-    flex-shrink: 0;
     border-radius: 0.8rem;
     background: #094B72;
     color: #F9F8F9;
-    text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.529rem;
     letter-spacing: 0.144rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* section 1 */
@@ -730,7 +737,7 @@ a {
 
 .ser-card h1 {
     width: 18.1rem;
-    color: #363940;
+    color: #21252d;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.2rem;
@@ -739,7 +746,7 @@ a {
 
 .ser-card p {
     width: 29.3rem;
-    color: #8B8C8C;
+    color: #303234;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.4rem;
@@ -748,9 +755,9 @@ a {
     letter-spacing: 0.03rem;
 }
 
-.ser-card button {
-    width: 19rem;
-    height: 8.2597rem;
+.ser-card .button {
+    width: 15rem;
+    height: 6rem;
     border-radius: 0.8rem;
     background: #094B72;
     color: #F9F8F9;
@@ -758,6 +765,9 @@ a {
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: 0.144rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {

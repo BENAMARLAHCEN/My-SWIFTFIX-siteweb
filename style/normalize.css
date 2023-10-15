@@ -153,13 +153,22 @@
    */
 
 
-  button {
+  .button {
     transition: background-color 0.3s ease;
   }
   
-button:hover {
-    background-color: #000000;
+  .button:hover {
+    background-color: #ffcd27;
+    color: blue;
+    border: 1px solid blue;
   }
+  li{
+    transition: background-color 0.3s ease;
+  }
+  li:hover{
+    font-size: 2rem;
+  }
+
   button,
   input,
   optgroup,
