@@ -7,15 +7,18 @@
 
 html {
     font-size: 10px;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
-select{
+
+select {
     word-wrap: normal;
 }
+
 header {
-    min-width: 144rem;
+
     background-color: rgb(255, 255, 255);
 }
 
@@ -73,17 +76,21 @@ a {
 /* hero section */
 
 .hero-section {
-    min-width: 144rem;
+width: 100%;
     display: flex;
     padding-left: 16.5rem;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-section .hero-image {
     display: flex;
     justify-content: center;
+    max-width: 68rem;
 }
-
+.hero-section .hero-image img{
+    width: 100%;
+}
 .hero-section .hero-image .hero-inf {
     width: 38.2rem;
     height: 11.4rem;
@@ -94,7 +101,7 @@ a {
 
 }
 
-.hero-section .hero-image .hero-inf h1 {
+.hero-section .hero-image .hero-inf h2 {
     color: #425d78;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -103,14 +110,15 @@ a {
     line-height: 3.6rem;
 }
 
-.hero-section .hero-image .hero-inf h2 {
-    color: #2d2f31;
+.hero-section .hero-image .hero-inf p {
+    color: #48494a;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 3.6rem;
 }
+
 
 .hero-section .hero {
     width: 59.3rem;
@@ -154,9 +162,11 @@ a {
     padding: 3rem;
 
 }
-.hero-camp{
+
+.hero-camp {
     margin-top: 12rem;
 }
+
 .hero-section .hero span {
     color: #4a4b4b;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -182,7 +192,7 @@ a {
 
 /* info section */
 .info-section {
-    min-width: 144rem;
+
     height: 78.6rem;
     display: flex;
     justify-content: space-evenly;
@@ -219,6 +229,7 @@ a {
 .info-section .row-box .box {
     display: flex;
     width: 25.5rem;
+    height: 25rem;
     padding: 2.4rem;
     flex-direction: column;
     gap: 1.8rem;
@@ -227,7 +238,7 @@ a {
     border-radius: 3%;
 }
 
-.info-section .row-box .box h1 {
+.info-section .row-box .box span {
     color: #1d1f24;
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.2rem;
@@ -259,7 +270,7 @@ a {
 
 /* Achievement */
 .achie-section {
-    min-width: 144rem;
+
     /* background-image: url(img/BG.png); */
     display: flex;
     justify-content: center;
@@ -268,7 +279,8 @@ a {
     gap: 4.8rem;
 
 }
-.achie-section img{
+
+.achie-section img {
     position: absolute;
     z-index: 1;
 }
@@ -289,7 +301,7 @@ a {
     letter-spacing: 0.024rem;
 }
 
-.achie-section .heading h2 {
+.achie-section .heading p {
     color: #FFF;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -313,7 +325,7 @@ a {
     flex-direction: column;
 }
 
-.achie-section .count .count-detai h1 {
+.achie-section .count .count-detai .h1 {
     color: #FFF;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -338,7 +350,7 @@ a {
 
 /* section-testimonial */
 .section-testimonial {
-    min-width: 144rem;
+
     height: 61rem;
     background: #F2F7FF;
     display: flex;
@@ -406,7 +418,8 @@ a {
     line-height: 155.556%;
     font-weight: 1000;
 }
-.card div{
+
+.card div {
     margin: 1rem;
 }
 
@@ -448,7 +461,7 @@ a {
 /* cta */
 
 .cta {
-    min-width: 144rem;
+
     height: 37.4rem;
     padding-left: 11.5%;
     display: flex;
@@ -501,7 +514,7 @@ a {
 
 /* footer */
 .footer_section {
-    min-width: 144rem;
+
     height: 43.3rem;
     background: #094B72;
     display: flex;
@@ -510,11 +523,20 @@ a {
     padding: 0% 11.5%;
 }
 
-.footer_section img {
-    width: 16.5rem;
-    height: 5.4054rem;
+.footer_section .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#F9F8F9;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    letter-spacing: 0.15rem;
     margin-top: -20%;
+    gap: 1rem;
 }
+
 
 .footer_section .link {
     display: inline-flex;
@@ -531,7 +553,7 @@ a {
 
 }
 
-.footer_section .link .list h1 {
+.footer_section .link .list p {
     color: #F4F5F7;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
@@ -559,7 +581,7 @@ a {
 }
 
 .footer {
-    min-width: 144rem;
+
     height: 6.9374rem;
     background: #004D7B;
     display: flex;
@@ -593,7 +615,7 @@ a {
 
 /* section 1 */
 .about-section {
-    min-width: 144rem;
+
     display: flex;
     justify-content: center;
     align-items: end;
@@ -663,7 +685,7 @@ a {
 }
 
 .about-service {
-    min-width: 144rem;
+
     height: 70rem;
     display: flex;
     flex-wrap: wrap;
@@ -679,7 +701,7 @@ a {
 /* services */
 
 .services-sec {
-    min-width: 144rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -777,23 +799,25 @@ a {
 /* services */
 
 /* contact */
-.co-group{
+.co-group {
     display: flex;
     margin: 10rem 6rem 10rem 16rem;
     gap: 3rem;
     flex-wrap: wrap;
-    
+
 }
-.heading-cont{
+
+.heading-cont {
     color: #094B72;
-font-family: 'Playfair Display',sans-serif;
-font-size: 4rem;
-font-style: normal;
-font-weight: 700;
-line-height: 4.8rem; /* 4.8rem */
-letter-spacing: 0.08rem;
-margin-left: 16.5rem;
-margin-top: 6rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.8rem;
+    /* 4.8rem */
+    letter-spacing: 0.08rem;
+    margin-left: 16.5rem;
+    margin-top: 6rem;
 }
 
 
@@ -802,14 +826,14 @@ margin-top: 6rem;
     min-width: 50rem;
     display: flex;
     flex-direction: column;
-    
+
     gap: 3rem;
 
 }
 
 .contact .container input,
 .contact .container textarea,
-.contact .container select{
+.contact .container select {
     width: 100%;
     padding: 1.4rem 2rem;
     font-size: 2rem;
@@ -819,20 +843,16 @@ margin-top: 6rem;
     outline: none;
     box-sizing: border-box;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-
-
 }
-label{
+
+label {
     color: #363940;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-size: 2rem;
     line-height: 2rem;
 }
-.contact .container option{
-    height: 4rem;
-    font-size: 2rem;
-}
+
 
 
 
@@ -848,11 +868,13 @@ label{
     line-height: 4.5rem;
     letter-spacing: 0.152rem;
 }
+
 .contact .container button {
     transition: background-color 0.3s ease;
-  }
-  
+}
+
 .contact .container button:hover {
     background-color: #000000;
-  }
+}
+
 /* contact */
