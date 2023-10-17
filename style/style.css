@@ -271,7 +271,7 @@ width: 100%;
 /* Achievement */
 .achie-section {
 
-    /* background-image: url(img/BG.png); */
+    background-color: #004D7B;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -280,7 +280,7 @@ width: 100%;
 
 }
 
-.achie-section img {
+.achie-section svg {
     position: absolute;
     z-index: 1;
 }
