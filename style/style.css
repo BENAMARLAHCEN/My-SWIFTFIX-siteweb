@@ -17,51 +17,20 @@ select {
     word-wrap: normal;
 }
 
-header {
-
-    background-color: rgb(255, 255, 255);
+a{
+    text-decoration: none;
 }
-
-nav {
-    margin: 0rem 16.5rem;
-    height: 10rem;
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 2% 11%;
 }
-
-.navbar {
-    display: flex;
-    gap: 3.5rem;
-}
-
-.navbar svg {
-    margin-left: 11rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    color: #2D2F30;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 1000;
-    gap: 5.6rem;
-}
-
 .nav-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-}
-
-.nav-logo span {
     color: #2D2F30;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
@@ -69,6 +38,27 @@ a {
     line-height: 2.3rem;
     letter-spacing: 0.15rem;
 }
+.navbar ul{
+    display: flex;
+    list-style: none;
+    color: #2D2F30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    gap: 3.5rem;
+}
+.navbar li{
+    display: block;
+}
+.menu{
+    display: none;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 
 
 
@@ -389,7 +379,6 @@ width: 100%;
 }
 
 .card {
-    height: 22rem;
     padding: 3.2rem;
     border-radius: 1rem;
     background: #ffffff;
@@ -462,8 +451,7 @@ width: 100%;
 
 .cta {
 
-    height: 37.4rem;
-    padding-left: 11.5%;
+    padding: 5rem 11.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -479,8 +467,6 @@ width: 100%;
 }
 
 .cta p {
-    width: 82.1rem;
-    height: 12.9393rem;
     flex-shrink: 0;
     color: #4F4F4F;
     font-family: 'Poppins', sans-serif;
@@ -492,8 +478,7 @@ width: 100%;
 }
 
 .cta .button {
-    width: 21.9rem;
-    height: 6.4rem;
+    padding: 1.4rem 3.6rem;
     border-radius: 0.8rem;
     background: #094B72;
     display: flex;
@@ -515,12 +500,12 @@ width: 100%;
 /* footer */
 .footer_section {
 
-    height: 43.3rem;
+   
     background: #094B72;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0% 11.5%;
+    padding: 6rem 11.5%;
 }
 
 .footer_section .logo {
@@ -533,8 +518,8 @@ width: 100%;
     font-weight: 700;
     line-height: 2.3rem;
     letter-spacing: 0.15rem;
-    margin-top: -20%;
     gap: 1rem;
+    align-self: start;
 }
 
 
@@ -550,13 +535,11 @@ width: 100%;
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
-
 }
 
 .footer_section .link .list p {
     color: #F4F5F7;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
+    font-family: 'Inter',sans-serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 3rem;
@@ -582,13 +565,11 @@ width: 100%;
 
 .footer {
 
-    height: 6.9374rem;
+    padding:2.2rem 11%;
     background: #004D7B;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 16.5rem;
-    padding-right: 16.5rem;
 }
 
 .box {
@@ -634,7 +615,6 @@ width: 100%;
     font-style: normal;
     font-weight: 1000;
     line-height: 7.2rem;
-    /* 7.2rem */
     letter-spacing: 0.12rem;
     align-self: flex-start;
 }
@@ -650,12 +630,11 @@ width: 100%;
 
 .about-descrip {
     display: flex;
-    width: 62.6rem;
+    max-width: 62.6rem;
     height: 66.7rem;
     flex-direction: column;
     justify-content: end;
     gap: 8rem;
-    margin-left: 11%;
 
 }
 
@@ -680,18 +659,16 @@ width: 100%;
 /* section 2 */
 
 .about-service .card {
-    width: 38%;
-    height: 22rem;
+    max-width: 38%;
 }
 
 .about-service {
-
-    height: 70rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 9rem 16rem;
+    padding: 7rem 11%;
 }
 
 /* section 2 */
