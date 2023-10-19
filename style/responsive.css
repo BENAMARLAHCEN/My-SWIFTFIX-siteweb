@@ -1,39 +1,62 @@
 @media (max-width: 1280px) {
-    html{
+    html {
         font-size: 9px;
     }
 }
+
 @media (max-width:1130px) {
-    html{
+    html {
         font-size: 8.6px;
     }
 }
 
 @media (max-width: 992px) {
-    html{
+    html {
         font-size: 7.7px;
     }
 }
+@media (max-width: 420px) {
+    html {
+        font-size: 6.5px;
+    }
+
+}
 
 @media screen and (max-width:1024px) {
-    html{
+    html {
         font-size: 8px;
     }
+    section.hero-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero-section .hero {
+        width: 100%
+    }
+    .hero-section .hero h1 {
+        font-size: 7rem;
+    }
+
     .services {
         flex-wrap: wrap;
         row-gap: 3rem;
     }
-    .image img{
-        width:100% ;
+
+    .image img {
+        width: 100%;
     }
+
     .info-section {
         flex-direction: column;
         align-items: center;
         gap: 5rem;
     }
+
     .description {
         text-align: center;
+        margin: 0;
     }
+
     .testimonials {
         flex-wrap: wrap;
         justify-content: center;
@@ -48,24 +71,30 @@
     .footer_section .logo {
         align-self: center;
     }
+
     .footer_section .link .list {
         align-items: center;
     }
-    .co-group{
+
+    .co-group {
         flex-wrap: wrap;
     }
-    .about-service .card{
+
+    .about-service .card {
         max-width: 100%;
     }
-    .about-descrip  {
+
+    .about-descrip {
         align-items: center;
         text-align: center;
     }
-    .ABOUT{
+
+    .ABOUT {
         flex-direction: column;
         gap: 5rem;
     }
-    .ABOUT .plumber2{
+
+    .ABOUT .plumber2 {
         max-width: 100%;
     }
 
@@ -74,16 +103,31 @@
 }
 
 @media (max-width:760px) {
-    html{
-    font-size: 7px;
-}
-.count {
-    flex-direction: column;
-}
-.services {
-    flex-direction: column;
-    align-items: center;
-}
+    html {
+        font-size: 7px;
+    }
+    
+
+    .count {
+        flex-direction: column;
+    }
+
+    .achie-section .count .count_0 {
+        border: none;
+        border-bottom: solid;
+        border-top: solid;
+        padding: 5rem 0rem;
+    }
+
+    .info-section .row-box {
+        grid-template-columns: 1fr;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .menu {
         display: flex;
 
@@ -111,12 +155,15 @@
         padding-top: 2rem;
         align-items: center;
     }
+
     .footer_section .link {
         flex-direction: column;
     }
-    .footer{
+
+    .footer {
         flex-direction: column-reverse;
     }
+
     .about-section {
         display: block;
 

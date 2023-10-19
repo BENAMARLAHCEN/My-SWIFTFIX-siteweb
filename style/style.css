@@ -66,11 +66,10 @@ nav{
 /* hero section */
 
 .hero-section {
-width: 100%;
     display: flex;
-    padding-left: 16.5rem;
+    padding-left: 11%;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .hero-section .hero-image {
@@ -111,9 +110,8 @@ width: 100%;
 
 
 .hero-section .hero {
-    width: 59.3rem;
-    height: 82.59rem;
-    margin-top: 6.5rem;
+    width: 50%;
+    padding: 7rem 0;
 }
 
 .hero-section .hero h1 {
