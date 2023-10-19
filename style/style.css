@@ -525,7 +525,6 @@ width: 100%;
 
 .footer_section .link {
     display: inline-flex;
-    height: 24rem;
     align-items: flex-start;
     gap: 3rem;
 }
@@ -554,7 +553,7 @@ width: 100%;
     font-weight: 700;
     gap: 1.2rem;
     list-style: none;
-    margin-left: -4rem;
+    padding-inline-start: 0;
 }
 
 
@@ -665,9 +664,9 @@ width: 100%;
 .about-service {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 9rem 16rem;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 9rem 10%;
     padding: 7rem 11%;
 }
 
@@ -778,9 +777,9 @@ width: 100%;
 /* contact */
 .co-group {
     display: flex;
-    margin: 10rem 6rem 10rem 16rem;
+    padding: 10rem 11%;
     gap: 3rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -791,16 +790,15 @@ width: 100%;
     font-style: normal;
     font-weight: 700;
     line-height: 4.8rem;
-    /* 4.8rem */
     letter-spacing: 0.08rem;
-    margin-left: 16.5rem;
+    padding-left: 11%;
     margin-top: 6rem;
 }
 
 
 .contact .container .co-group form {
-    width: 42%;
-    min-width: 50rem;
+    /* width: 42%; */
+    /* min-width: 50rem; */
     display: flex;
     flex-direction: column;
 
