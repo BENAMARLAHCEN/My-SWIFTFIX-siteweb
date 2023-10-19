@@ -1,14 +1,38 @@
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
     html{
         font-size: 9px;
     }
 }
+@media (max-width:1130px) {
+    html{
+        font-size: 8.6px;
+    }
+}
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    html{
+        font-size: 7.7px;
+    }
+}
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1024px) {
     html{
         font-size: 8px;
+    }
+    .services {
+        flex-wrap: wrap;
+        row-gap: 3rem;
+    }
+    .image img{
+        width:100% ;
+    }
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .description {
+        text-align: center;
     }
 
     .footer_section {
@@ -20,15 +44,38 @@
     .footer_section .logo {
         align-self: center;
     }
+    .footer_section .link .list {
+        align-items: center;
+    }
     .co-group{
         flex-wrap: wrap;
     }
+    .about-service .card{
+        max-width: 100%;
+    }
+    .about-descrip  {
+        align-items: center;
+        text-align: center;
+    }
+    .ABOUT{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .ABOUT .plumber2{
+        max-width: 100%;
+    }
+
+
 
 }
 
 @media (max-width:760px) {
     html{
     font-size: 7px;
+}
+.services {
+    flex-direction: column;
+    align-items: center;
 }
     .menu {
         display: flex;

@@ -181,18 +181,18 @@ width: 100%;
 
 
 /* info section */
+    
 .info-section {
-
-    height: 78.6rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background: #F2F7FF;
+    padding: 11%;
 }
 
 .description {
-    width: 41.9309rem;
-    height: 29.1rem;
+    /* width: 41rem; */
+    /* height: 29.1rem; */
     margin-top: -10rem;
 }
 
@@ -218,8 +218,8 @@ width: 100%;
 
 .info-section .row-box .box {
     display: flex;
-    width: 25.5rem;
-    height: 25rem;
+    /* width: 25.5rem;
+    height: 25rem; */
     padding: 2.4rem;
     flex-direction: column;
     gap: 1.8rem;
@@ -260,13 +260,13 @@ width: 100%;
 
 /* Achievement */
 .achie-section {
-
     background-color: #004D7B;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 4.8rem;
+    
 
 }
 
@@ -485,6 +485,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     gap: 1.74rem;
+    width: 24rem;
 }
 
 .cta .button span {
@@ -597,16 +598,12 @@ width: 100%;
 .about-section {
 
     display: flex;
-    justify-content: center;
-    align-items: end;
-    padding-bottom: 9.7rem;
-    padding-top: 14rem;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    align-items: center;
+    padding: 9rem 11%;
 }
 
 .about-title {
-    position: absolute;
     color: #094B72;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
@@ -615,8 +612,17 @@ width: 100%;
     font-weight: 1000;
     line-height: 7.2rem;
     letter-spacing: 0.12rem;
-    align-self: flex-start;
 }
+.ABOUT{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.ABOUT .plumber2{
+    max-width: 50%;
+}
+
 
 .about-descrip p {
     color: #4F4F4F;
@@ -629,28 +635,24 @@ width: 100%;
 
 .about-descrip {
     display: flex;
-    max-width: 62.6rem;
-    height: 66.7rem;
     flex-direction: column;
-    justify-content: end;
+    /* justify-content: end; */
     gap: 8rem;
 
 }
 
 .about-descrip .button {
     width: 19rem;
-    height: 8.2597rem;
     border-radius: 0.8rem;
     background: #094B72;
+    text-align: center;
     color: #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.529rem;
     letter-spacing: 0.144rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 2.5rem 3rem;
 }
 
 /* section 1 */
@@ -658,7 +660,7 @@ width: 100%;
 /* section 2 */
 
 .about-service .card {
-    max-width: 38%;
+    max-width: 45%;
 }
 
 .about-service {
@@ -666,7 +668,7 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     /* align-items: center; */
-    gap: 9rem 10%;
+    gap: 9rem 9rem;
     padding: 7rem 11%;
 }
 
@@ -770,6 +772,8 @@ width: 100%;
 
 .image {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* services */
