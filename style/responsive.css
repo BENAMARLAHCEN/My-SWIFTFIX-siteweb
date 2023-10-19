@@ -34,6 +34,10 @@
     .description {
         text-align: center;
     }
+    .testimonials {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .footer_section {
         flex-direction: column;
@@ -72,6 +76,9 @@
 @media (max-width:760px) {
     html{
     font-size: 7px;
+}
+.count {
+    flex-direction: column;
 }
 .services {
     flex-direction: column;
