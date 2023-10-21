@@ -6,12 +6,19 @@ toggleButton.addEventListener('click', () => {
     navbar.classList.toggle('red')
 })
 
+const faqs = document.querySelectorAll('.faq');
+faqs.forEach(faq => {
+    faq.addEventListener('click', () => {
+        faq.classList.toggle('active')
+    })
+
+})
 
 
 
 
 // const list = document.getElementsByClassName('list');
-// const li = createElement('li'); 
+// const li = createElement('li');
 // console.log(li);
 // const li = document.getElementsByName('text');
 // console.log(li);
@@ -25,7 +32,7 @@ toggleButton.addEventListener('click', () => {
 
 // const attribute = li.setAttribute("id" , "nime")
 // console.log(attribute)
-// console.log(li); 
+// console.log(li);
 
 // const btn =document.getElementsByClassName("button")[0]
 // btn.addEventListener("click", () => {

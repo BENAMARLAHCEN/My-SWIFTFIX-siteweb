@@ -17,15 +17,17 @@ select {
     word-wrap: normal;
 }
 
-a{
+a {
     text-decoration: none;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2% 11%;
 }
+
 .nav-logo {
     display: flex;
     justify-content: center;
@@ -38,7 +40,8 @@ nav{
     line-height: 2.3rem;
     letter-spacing: 0.15rem;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     list-style: none;
     color: #2D2F30;
@@ -46,15 +49,18 @@ nav{
     font-size: 1.2rem;
     font-weight: 1000;
     gap: 3.5rem;
-    
+
 }
-.navbar li{
+
+.navbar li {
     display: block;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.icon{
+
+.icon {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -78,9 +84,11 @@ nav{
     justify-content: center;
     max-width: 68rem;
 }
-.hero-section .hero-image img{
+
+.hero-section .hero-image img {
     width: 100%;
 }
+
 .hero-section .hero-image .hero-inf {
     width: 38.2rem;
     height: 11.4rem;
@@ -180,7 +188,7 @@ nav{
 
 
 /* info section */
-    
+
 .info-section {
     display: flex;
     justify-content: space-between;
@@ -307,7 +315,8 @@ nav{
     z-index: 2;
     margin-bottom: 5rem;
 }
-.achie-section .count .count_0{
+
+.achie-section .count .count_0 {
     border-left: solid;
     border-right: solid;
 }
@@ -410,6 +419,7 @@ nav{
 .card div {
     margin: 1rem;
 }
+
 .card .h1 {
     margin: 1rem;
 }
@@ -504,7 +514,7 @@ nav{
 /* footer */
 .footer_section {
 
-   
+
     background: #094B72;
     display: flex;
     justify-content: space-between;
@@ -516,8 +526,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#F9F8F9;
-    font-family: 'Poppins',sans-serif;
+    color: #F9F8F9;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 2.3rem;
@@ -542,7 +552,7 @@ nav{
 
 .footer_section .link .list p {
     color: #F4F5F7;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 3rem;
@@ -568,7 +578,7 @@ nav{
 
 .footer {
 
-    padding:2.2rem 11%;
+    padding: 2.2rem 11%;
     background: #004D7B;
     display: flex;
     justify-content: space-between;
@@ -616,13 +626,14 @@ nav{
     line-height: 7.2rem;
     letter-spacing: 0.12rem;
 }
-.ABOUT{
+
+.ABOUT {
     display: flex;
     width: 100%;
     /* justify-content: space-between; */
 }
 
-.ABOUT .plumber2{
+.ABOUT .plumber2 {
     max-width: 50%;
 }
 
@@ -676,6 +687,77 @@ nav{
 }
 
 /* section 2 */
+
+/* FAQ */
+
+.faq_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9rem 11%;
+    background: #F2F7FF;
+    gap: 2rem;
+}
+
+.faq_title {
+    color: #094B72;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 7.2rem;
+    letter-spacing: 0.12rem;
+    margin-bottom: 5rem;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.quistion {
+    /* width: 100%; */
+    padding: 2.4rem;
+    border-radius: 0.8rem;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+}
+
+.quistion span {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+    line-height: 155.556%;
+    font-weight: 700;
+}
+
+.ansre {
+    border-radius: 0.8rem;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.ansre p {
+    padding: 2.4rem;
+    color: #060505;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 171.429%;
+    letter-spacing: 0.05rem;
+}
+
+.faq.active .ansre {
+    height: auto;
+}
+
+/* FAQ */
+
 /* about */
 
 
