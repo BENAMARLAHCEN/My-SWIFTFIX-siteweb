@@ -46,6 +46,7 @@ nav{
     font-size: 1.2rem;
     font-weight: 1000;
     gap: 3.5rem;
+    
 }
 .navbar li{
     display: block;
@@ -369,8 +370,6 @@ nav{
 }
 
 .section-testimonial .testimonials .test-client {
-    width: 54rem;
-    height: 30.4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,8 +410,12 @@ nav{
 .card div {
     margin: 1rem;
 }
+.card .h1 {
+    margin: 1rem;
+}
 
 .card p {
+    height: 10rem;
     color: #060505;
     text-align: center;
     font-family: 'Poppins', sans-serif;

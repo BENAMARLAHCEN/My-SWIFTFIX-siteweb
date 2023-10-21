@@ -140,6 +140,9 @@
 
     .navbar {
         display: none;
+    }
+    .red{
+        display: flex;
         width: 100%;
     }
 
@@ -154,14 +157,28 @@
         padding-inline-start: 0;
         padding-top: 2rem;
         align-items: center;
+        width: 100%;
     }
 
     .footer_section .link {
         flex-direction: column;
+        text-align: center;
+    }
+    .footer_section .link .list p {
+        font-size: 4rem;
+    }
+    .footer_section .link ul {
+       
+        font-size: 2.3rem;
     }
 
     .footer {
         flex-direction: column-reverse;
+    }
+    .footer .container p {
+        
+        font-size: 2rem;
+        
     }
 
     .about-section {
