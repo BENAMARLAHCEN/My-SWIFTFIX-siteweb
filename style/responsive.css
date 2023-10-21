@@ -130,20 +130,26 @@
 
     .menu {
         display: flex;
-
-    }
-
-    .icon {
         position: absolute;
         align-self: flex-end;
     }
 
     .navbar {
         display: none;
+        flex-direction: column;
+        
     }
     .red{
         display: flex;
         width: 100%;
+    }
+    .search_gr{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .search{
+        width: 50%;
     }
 
     nav {
@@ -158,8 +164,16 @@
         padding-top: 2rem;
         align-items: center;
         width: 100%;
+        gap: 0;
     }
-
+    .navbar li{
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    }
+    .navbar li:hover{
+        background-color: #F2F7FF;
+    }
     .footer_section .link {
         flex-direction: column;
         text-align: center;

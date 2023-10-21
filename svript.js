@@ -14,6 +14,14 @@ faqs.forEach(faq => {
 
 })
 
+const search = document.getElementsByClassName('search')[0]
+const search_icon=document.getElementsByClassName('search_icon')[0]
+console.log(search)
+console.log(search_icon)
+search_icon.addEventListener('click', () => {
+    search.classList.toggle('red')
+
+})
 
 
 
