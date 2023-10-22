@@ -40,31 +40,35 @@ nav {
     line-height: 2.3rem;
     letter-spacing: 0.15rem;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
-.search{
+
+.search {
     padding: .5rem;
     font-size: 1.6rem;
-    border:none;
+    border: none;
     border-radius: 3px;
     outline: none;
     box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.25);
     display: none;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
-.red{
+
+.red {
     display: flex;
 }
 
 
-.search_gr{
+.search_gr {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
 .navbar ul {
     display: flex;
     list-style: none;
@@ -114,15 +118,15 @@ nav {
 }
 
 .hero-section .hero-image .hero-inf {
-        /* width: 38.2rem; */
-        padding: 3rem 7rem;
-        /* height: 11.4rem; */
-        border-radius: 1rem;
-        background: #fcfcfc;
-        position: absolute;
-        align-self: flex-end;
-        margin-bottom: -6rem;
-        margin-left: -7rem;
+    /* width: 38.2rem; */
+    padding: 3rem 7rem;
+    /* height: 11.4rem; */
+    border-radius: 1rem;
+    background: #fcfcfc;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: -6rem;
+    margin-left: -7rem;
 
 }
 
@@ -628,11 +632,13 @@ nav {
     text-decoration: none;
     color: #D9DBE1;
 }
-.list_title{
+
+.list_title {
     display: flex;
     gap: 1rem;
 }
-.list_title .plus_icon{
+
+.list_title .plus_icon {
     display: none;
 
 }
@@ -705,6 +711,67 @@ nav {
 
 /* section 1 */
 
+/* model */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 41, 42, 0.14);
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+    visibility: hidden;
+    z-index: -10;
+
+
+}
+
+.open_model {
+    visibility: visible;
+    z-index: 10;
+
+}
+.container_modal{
+    height: 40vh;
+    width: 50vh;
+    background-color: white;
+
+}
+.close{
+    background-color: unset;
+    border: none;
+}
+.modal_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    line-height: 7.2rem;
+    letter-spacing: 0.12rem;
+}
+.detail{
+    padding: 4rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #060505;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 171.429%;
+    letter-spacing: 0.05rem;
+}
+
+/* model */
+
 /* section 2 */
 
 .about-service .card {
@@ -773,7 +840,7 @@ nav {
     box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
     height: 0;
     overflow: hidden;
-    
+
 }
 
 .ansre p {
