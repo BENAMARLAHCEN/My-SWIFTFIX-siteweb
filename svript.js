@@ -1,7 +1,6 @@
 const toggleButton = document.getElementsByClassName('menu')[0]
 const navbar = document.getElementsByClassName('navbar')[0]
-console.log(navbar)
-console.log(toggleButton)
+
 toggleButton.addEventListener('click', () => {
     navbar.classList.toggle('red')
 })
@@ -16,14 +15,26 @@ faqs.forEach(faq => {
 
 const search = document.getElementsByClassName('search')[0]
 const search_icon=document.getElementsByClassName('search_icon')[0]
-console.log(search)
-console.log(search_icon)
+
 search_icon.addEventListener('click', () => {
     search.classList.toggle('red')
 
 })
 
 
+
+const p=document.querySelectorAll('.list_title');
+            const ul=document.querySelectorAll('.footer_section .link .ul');
+            for(let i =0; i<p.length;i++){
+                p[i].addEventListener('click' , function(){
+                   if(ul[i].style.display === "flex"){
+                    ul[i].style.display = "none";
+                   }
+                   else{
+                    ul[i].style.display = "flex";
+                   }
+                })
+            }
 
 // const list = document.getElementsByClassName('list');
 // const li = createElement('li');

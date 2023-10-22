@@ -626,6 +626,14 @@ nav {
     text-decoration: none;
     color: #D9DBE1;
 }
+.list_title{
+    display: flex;
+    gap: 1rem;
+}
+.list_title .plus_icon{
+    display: none;
+
+}
 
 /* footer */
 
