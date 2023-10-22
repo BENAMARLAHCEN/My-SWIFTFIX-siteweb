@@ -114,12 +114,15 @@ nav {
 }
 
 .hero-section .hero-image .hero-inf {
-    width: 38.2rem;
-    height: 11.4rem;
-    border-radius: 1rem;
-    background: #fcfcfc;
-    position: absolute;
-    align-self: flex-end;
+        /* width: 38.2rem; */
+        padding: 3rem 7rem;
+        /* height: 11.4rem; */
+        border-radius: 1rem;
+        background: #fcfcfc;
+        position: absolute;
+        align-self: flex-end;
+        margin-bottom: -6rem;
+        margin-left: -7rem;
 
 }
 
@@ -449,7 +452,6 @@ nav {
 }
 
 .card p {
-    height: 10rem;
     color: #060505;
     text-align: center;
     font-family: 'Poppins', sans-serif;

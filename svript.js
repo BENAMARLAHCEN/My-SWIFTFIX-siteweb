@@ -27,11 +27,19 @@ const p=document.querySelectorAll('.list_title');
             const ul=document.querySelectorAll('.footer_section .link .ul');
             for(let i =0; i<p.length;i++){
                 p[i].addEventListener('click' , function(){
+                    // for(let g =0; g<p.length;g++)
+                    // ul[g].style.display = "none";
+
                    if(ul[i].style.display === "flex"){
                     ul[i].style.display = "none";
                    }
                    else{
                     ul[i].style.display = "flex";
+                    for(let g =0; g<p.length;g++){
+                        if(g!=i){
+                    ul[g].style.display = "none";
+                }
+                }
                    }
                 })
             }

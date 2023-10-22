@@ -122,6 +122,9 @@
     .info-section .row-box {
         grid-template-columns: 1fr;
     }
+    .info-section .row-box .box p {
+        width: auto;
+    }
 
     .services {
         flex-direction: column;
