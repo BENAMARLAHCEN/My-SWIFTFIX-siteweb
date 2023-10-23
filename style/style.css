@@ -831,6 +831,14 @@ nav {
     border-radius: 0.8rem;
     background: #FCFCFC;
     box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quistion img{
+    width: 3rem;
+    height: 3rem;
+    transition: transform 0.5s ease;
 }
 
 .quistion span {
@@ -865,6 +873,10 @@ nav {
 .faq.active .ansre {
     max-height: 40rem;
     transition: max-height 0.9s ease;
+}
+.faq.active .quistion img{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
 }
 
 /* FAQ */
