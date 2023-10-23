@@ -404,9 +404,14 @@ nav {
     letter-spacing: 0.05rem;
 }
 
+.carousel{
+    overflow: hidden;
+}
 .section-testimonial .testimonials {
     display: flex;
-    gap: 4rem;
+    /* gap: 4%; */
+    transition: transform 1s ease;
+    
 }
 
 .section-testimonial .testimonials .test-client {
@@ -415,6 +420,9 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    min-width: 96%; 
+    padding: 0 2%;
+    
 }
 
 .card {

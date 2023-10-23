@@ -112,6 +112,20 @@ for(let f=0 ; f< closeSer.length ; f++){
 }
 
 
+document.addEventListener("DOMContentLoaded", function () {
+const carousel = document.querySelector('.testimonials');
+const items = document.querySelectorAll('.test-client');
+const itemWidth = items[0].clientWidth;
+const  interval = 2000;
+let index=0;
+function scrollcarousel(){
+    index  = (index + 1) % items.length;
+    const translateX = -index * itemWidth;
+    carousel.style.transform = `translateX(${translateX}px)`;
+}
+setInterval(scrollcarousel, interval);
+});
+
 
 
 

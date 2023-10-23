@@ -57,10 +57,10 @@
         margin: 0;
     }
 
-    .testimonials {
+    /* .testimonials {
         flex-wrap: wrap;
         justify-content: center;
-    }
+    } */
 
     .footer_section {
         flex-direction: column;
