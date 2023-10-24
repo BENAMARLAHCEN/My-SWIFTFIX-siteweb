@@ -190,12 +190,13 @@
         background-color: #F2F7FF;
     }
 
-    .droped{
+    .navbar .droped{
         position: static;
     }
     .droped li{
         padding: 0;
     }
+    
 
     /* footer */
     .footer_section .link {

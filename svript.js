@@ -37,7 +37,7 @@ const search = document.getElementsByClassName('search')[0]
 const search_icon = document.getElementsByClassName('search_icon')[0]
 
 search_icon.addEventListener('click', () => {
-    search.classList.toggle('red')
+    search.classList.toggle('search_input')
 
 })
 

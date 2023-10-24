@@ -10,6 +10,9 @@ function validateForm() {
     errorMessages.forEach((element) => {
         element.classList.remove('error');
     });
+
+    const errorinput = document.querySelectorAll('input')
+    console.log(errorinput)
     name.classList.remove('inputerror')
     phoneNumber.classList.remove('inputerror')
     email.classList.remove('inputerror')
