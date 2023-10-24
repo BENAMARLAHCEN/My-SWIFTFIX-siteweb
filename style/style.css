@@ -48,13 +48,14 @@ nav {
 }
 
 .search {
-    padding: .5rem;
+    padding: .8rem;
     font-size: 1.6rem;
     border: none;
     border-radius: 3px;
     outline: none;
     box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.25);
     display: none;
+    margin-bottom: 3px;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
@@ -81,7 +82,28 @@ nav {
 }
 
 .navbar li {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+}
+.droped{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    top: 8rem;
+    right: 12%;
+    /*  */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease;
+}
+
+.affiche{
+    max-height: 45rem;
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.25);
+    transition: max-height .5s ease;
 }
 
 .menu {
@@ -404,14 +426,15 @@ nav {
     letter-spacing: 0.05rem;
 }
 
-.carousel{
+.carousel {
     overflow: hidden;
 }
+
 .section-testimonial .testimonials {
     display: flex;
     /* gap: 4%; */
     transition: transform 1s ease;
-    
+
 }
 
 .section-testimonial .testimonials .test-client {
@@ -420,9 +443,9 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    min-width: 96%; 
+    min-width: 96%;
     padding: 0 2%;
-    
+
 }
 
 .card {
@@ -741,17 +764,19 @@ nav {
     display: flex;
 
 }
-.container_modal{
-    height: 40vh;
-    width: 50vh;
+
+.container_modal {
+    width: 60%;
     background-color: white;
 
 }
-.close{
+
+.close {
     background-color: unset;
     border: none;
 }
-.modal_heading{
+
+.modal_heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -762,7 +787,8 @@ nav {
     line-height: 7.2rem;
     letter-spacing: 0.12rem;
 }
-.detail{
+
+.detail {
     padding: 4rem;
     width: 100%;
     height: 80%;
@@ -835,7 +861,8 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.quistion img{
+
+.quistion img {
     width: 3rem;
     height: 3rem;
     transition: transform 0.5s ease;
@@ -874,7 +901,8 @@ nav {
     max-height: 40rem;
     transition: max-height 0.9s ease;
 }
-.faq.active .quistion img{
+
+.faq.active .quistion img {
     transform: rotate(180deg);
     transition: transform 0.5s ease;
 }
@@ -1062,6 +1090,18 @@ label {
 
 .contact .container button:hover {
     background-color: #000000;
+}
+.co-group span{
+    color: red;
+    font-size: 2rem;
+    display: none;
+}
+
+.co-group .error{
+    display: block;
+}        
+.contact .container .inputerror{
+    border: solid red;
 }
 
 /* contact */

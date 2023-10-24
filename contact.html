@@ -20,11 +20,19 @@
                 <span>SwiftFix</span>
             </a>
             <div class="navbar">
-                <ul>
+                <ul class="navbar_list">
                     <li><a class="nav-link" href="contact.html">CONTACT</a></li>
                     <li><a class="nav-link" href="testimonials.html">TESTIMONIALS</a></li>
                     <li><a class="nav-link" href="about.html">ABOUT</a></li>
-                    <li><a class="nav-link" href="services.html">SERVICES</a></li>
+                    <li style="position: relative;"><a class="nav-link" href="services.html">SERVICES</a> <img class="drop_service" src="img/down2.svg" alt="icon"></li>
+                    <li style="padding: 0;">
+                        <ul class="droped">
+                            <li><a href="services.html">Information and Technology</a></li>
+                            <li><a href="services.html">Equipment Maintenance  </a></li>
+                            <li><a href="services.html">Equipment Maintenance </a> </li>
+                            <li><a href="services.html">Other Services Of Maintenance</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <div class="search_gr">
                 <input type="search" name="search" class="search">
@@ -53,13 +61,16 @@
                 <div style="width: 100%;">
                 <form action="#">
                     <div>
-                        <input type="text" placeholder="Name">
+                        <input class="name" type="text" name="name" placeholder="Name">
+                        <span class="error-message name-error">Please enter your name.</span>
                     </div>
                     <div>
-                        <input type="text" placeholder="Phone Number">
+                        <input class="phone" type="text" name="phone" placeholder="Phone Number">
+                        <span class="error-message phone-error">Please enter your phone number.</span>
                     </div>
                     <div>
-                        <input type="email" placeholder="Email">
+                        <input class="email" type="email" name="email" placeholder="Email">
+                        <span class="error-message email-error">Please enter a valid email address.</span>
                     </div>
                     <div>
                         <label for="state">choose the service:</label> 
@@ -73,14 +84,14 @@
                         </select>
                     </div>
                     <div>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+                        <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+                        <span class="error-message message-error">Please enter your message.</span>
                     </div>
                     
                     <div class="send">
-                        <button>
-                            SEND
-                        </button>
+                        <button onclick="return validateForm();">SEND</button>
                     </div>
+                    
                 </form>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1607.917771117547!2d-5.165139720113833!3d31.116749347426996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbd671f05a8399d%3A0xab823468cebcd23a!2z2KPZhNmG2YrZgQ!5e0!3m2!1sar!2sma!4v1697297939143!5m2!1sar!2sma" title="myFrame" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -90,7 +101,10 @@
 
     </section>
 
+
     <!-- contact -->
+    
+    
     
     <!-- footer -->
     <footer>
@@ -196,6 +210,7 @@
         </footer>
     <!-- footer -->
     <script src="svript.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>

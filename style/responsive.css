@@ -15,6 +15,7 @@
         font-size: 7.7px;
     }
 }
+
 @media (max-width: 420px) {
     html {
         font-size: 6.5px;
@@ -26,13 +27,16 @@
     html {
         font-size: 8px;
     }
+
     section.hero-section {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .hero-section .hero {
         width: 100%
     }
+
     .hero-section .hero h1 {
         font-size: 7rem;
     }
@@ -106,7 +110,7 @@
     html {
         font-size: 7px;
     }
-    
+
 
     .count {
         flex-direction: column;
@@ -122,6 +126,7 @@
     .info-section .row-box {
         grid-template-columns: 1fr;
     }
+
     .info-section .row-box .box p {
         width: auto;
     }
@@ -138,21 +143,25 @@
     }
 
     .navbar {
-        display: none;
-        flex-direction: column;
-        
-    }
-    .red{
-        display: flex;
         width: 100%;
-        transition: 0.5s ease-in-out;
+        max-height: 0;
+        flex-direction: column;
+        overflow: hidden;
+        transition:max-height 0.5s ease;
     }
-    .search_gr{
+
+    .red {
+        max-height: fit-content;
+        transition:max-height 0.7s ease;
+    }
+
+    .search_gr {
         display: flex;
         justify-content: center;
         width: 100%;
     }
-    .search{
+
+    .search {
         width: 50%;
     }
 
@@ -161,7 +170,7 @@
         align-items: flex-start;
     }
 
-    .navbar ul {
+    .navbar .navbar_list {
         flex-direction: column;
         margin-left: 0;
         padding-inline-start: 0;
@@ -170,13 +179,22 @@
         width: 100%;
         gap: 0;
     }
-    .navbar li{
-    width: 100%;
-    text-align: center;
-    padding: 2rem;
+
+    .navbar li {
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
     }
-    .navbar li:hover{
+
+    .navbar li:hover {
         background-color: #F2F7FF;
+    }
+
+    .droped{
+        position: static;
+    }
+    .droped li{
+        padding: 0;
     }
 
     /* footer */
@@ -184,23 +202,28 @@
         flex-direction: column;
         text-align: center;
     }
+
     .footer_section .link .list p {
         font-size: 4rem;
     }
+
     .footer_section .link .ul {
         display: none;
         font-size: 2.3rem;
     }
-    .list_title .plus_icon{
+
+    .list_title .plus_icon {
         display: block;
     }
-    .list_title.active .ul{
+
+    .list_title.active .ul {
         height: auto;
     }
 
     .footer {
         flex-direction: column-reverse;
     }
+
     .footer .container p {
         font-size: 2rem;
     }

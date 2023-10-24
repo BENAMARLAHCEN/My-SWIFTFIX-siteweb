@@ -111,6 +111,13 @@ for(let f=0 ; f< closeSer.length ; f++){
     })
 }
 
+// affiche drop
+
+const drop_service = document.querySelector('.drop_service')
+const droped = document.querySelector('.droped')
+drop_service.addEventListener('click' , ()=>{
+    droped.classList.toggle('affiche')
+})
 
 document.addEventListener("DOMContentLoaded", function () {
 const carousel = document.querySelector('.testimonials');
