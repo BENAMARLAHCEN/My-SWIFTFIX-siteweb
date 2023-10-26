@@ -1126,5 +1126,8 @@ label {
 .contact .container .inputerror{
     border: solid red;
 }
+.contact .container .inputvalid{
+    border: solid rgb(0, 255, 0);
+}
 
 /* contact */
