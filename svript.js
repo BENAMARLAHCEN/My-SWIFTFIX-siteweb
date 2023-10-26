@@ -7,13 +7,7 @@ toggleButton.addEventListener('click', () => {
 })
 
 // FAQ affiche
-// const faqs = document.querySelectorAll('.faq');
-// faqs.forEach(faq => {
-//     faq.addEventListener('click', () => {
-//         faq.classList.toggle('active')
-//     })
 
-// })
 
 const quistion = document.querySelectorAll('.quistion')
 const faq = document.querySelectorAll('.faq')
@@ -64,34 +58,6 @@ for (let i = 0; i < p.length; i++) {
     })
 }
 
-// const openMore = document.querySelectorAll('.open_more');
-// const modalService = document.querySelectorAll('.modal-service');
-// const closeSer = document.querySelectorAll('.close_ser');
-// console.log(modalService)
-// for(let f=0 ; f< openMore.length ; f++){
-//     openMore[f].addEventListener('click', () => {
-//         modalService[f].classList.add('open_model')
-//     })
-    
-// }
-// for(let f=0 ; f< closeSer.length ; f++){
-//     closeSer[f].addEventListener('click', () => {
-//         modalService[f].classList.remove('open_model')
-//     })
-// }
-
-
-
-
-// const open = document.querySelectorAll('.open')[0]
-// const modal = document.querySelectorAll('.modal')[0]
-// const close = document.querySelectorAll('.close')[0]
-// open.addEventListener('click', () => {
-//     modal.classList.add('open_model')
-// })
-// close.addEventListener('click', () => {
-//     modal.classList.remove('open_model')
-// })
 
 
 // modal 
@@ -118,12 +84,12 @@ const droped = document.querySelector('.droped')
 drop_service.addEventListener('click' , ()=>{
     droped.classList.toggle('affiche')
 })
-
+// carousel
 document.addEventListener("DOMContentLoaded", function () {
 const carousel = document.querySelector('.testimonials');
 const items = document.querySelectorAll('.test-client');
 const itemWidth = items[0].clientWidth;
-const  interval = 2000;
+const  interval = 3000;
 let index=0;
 function scrollcarousel(){
     index  = (index + 1) % items.length;
@@ -138,24 +104,4 @@ setInterval(scrollcarousel, interval);
 
 
 
-// const list = document.getElementsByClassName('list');
-// const li = createElement('li');
-// console.log(li);
-// const li = document.getElementsByName('text');
-// console.log(li);
-// const li = document.querySelector(".item");
 
-
-// li.classList.add("red")// add style
-//li.classList.remove("red")//remove style
-
-// li.id = "class"//add id or change
-
-// const attribute = li.setAttribute("id" , "nime")
-// console.log(attribute)
-// console.log(li);
-
-// const btn =document.getElementsByClassName("button")[0]
-// btn.addEventListener("click", () => {
-//          li.classList.toggle("red")
-// })

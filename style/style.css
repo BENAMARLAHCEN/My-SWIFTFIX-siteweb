@@ -450,6 +450,7 @@ nav {
 
 .carousel {
     overflow: hidden;
+    width: 100%;
 }
 
 .section-testimonial .testimonials {

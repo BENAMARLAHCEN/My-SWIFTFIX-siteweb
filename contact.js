@@ -52,3 +52,12 @@ function validateForm() {
 
     return valid;
 }
+
+
+const name = document.querySelector('.name');
+const phoneNumber = document.querySelector('.phone');
+const email = document.querySelector('.email');
+const message = document.querySelector('.message');
+
+
+
